@@ -1,4 +1,4 @@
-var Swing = require('swing');
+var Swing = require('../../dist/index.js');
 
 (function(angular, Swing, undefined) {
 
