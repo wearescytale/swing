@@ -369,14 +369,14 @@ Card.transform = (element, x, y, r) => {
  * @return {undefined}
  */
 Card.appendToParent = (element) => {
-    const parentNode = element.parentNode;
-    const siblings = elementChildren(parentNode);
-    const targetIndex = siblings.indexOf(element);
+    //const parentNode = element.parentNode;
+    //const siblings = elementChildren(parentNode);
+    //const targetIndex = siblings.indexOf(element);
 
-    if (targetIndex + 1 !== siblings.length) {
-        parentNode.removeChild(element);
-        parentNode.appendChild(element);
-    }
+    //if (targetIndex + 1 !== siblings.length) {
+        //parentNode.removeChild(element);
+        //parentNode.appendChild(element);
+    //}
 };
 
 /**
